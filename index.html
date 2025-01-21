@@ -2,13 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | NFT preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300,@600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/index.css">
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -16,18 +20,27 @@
 </head>
 <body>
 
-  Equilibrium #3429
+  <section class="card">
+    <img src="assets/images/image-equilibrium.jpg" alt="feature-img">
+    <h1>Equilibrium #3429</h1>
+    <p>Our Equilibrium collection promotes balance and calm.</p>
+    <div>
+        <img src="assets/images/icon-ethereum.svg" alt="icon-ethereum">
+        0.041 ETH
+    </div>
+    <div>
+      <img src="assets/images/icon-clock.svg" alt="icon-clock">
+      <span>3 days left</span>
+    </div>    
+    <div>
+      <img src="assets/images/image-avatar.png" alt="person-pic">
+      <span>Creation of</span> Jules Wyvern
+    </div>
+  </section>
 
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="https://github.com/gillaercio/nft-preview-card-component-main" target="_blank">Gildman Laécio</a>.
+  </footer>
 </body>
 </html>
