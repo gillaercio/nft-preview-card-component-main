@@ -1,0 +1,50 @@
+body {
+  background-color: var(--very-dark-blue-main-BG);
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+#content {
+  display: grid;
+  grid-gap: 15px;
+  background-color: var(--very-dark-blue-card-BG);
+  width: 300px;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.feature-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+h1 {
+  font: var(--feature-text);
+  color: var(--white);
+}
+
+.info img {
+  width: 30px;
+}
+
+p {
+  font: var(--small-text);
+  color: var(--soft-blue);
+  /* opacity: .4; */
+}
+
+span {
+  color: var(--white);
+  /* opacity: 1; */
+}
+
+.attribution {
+  font: var(--small-text);
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--dark-blue-footer);
+}

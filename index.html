@@ -10,36 +10,36 @@
   
   <title>Frontend Mentor | NFT preview card component</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300,@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="assets/css/index.css">
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  <section class="card">
-    <img src="assets/images/image-equilibrium.jpg" alt="feature-img">
+  <section id="content">
+    <img class="feature-img" src="assets/images/image-equilibrium.jpg" alt="feature-img">
     <h1>Equilibrium #3429</h1>
     <p>Our Equilibrium collection promotes balance and calm.</p>
-    <div>
+
+    <div class="emphasis">
+      <div>
         <img src="assets/images/icon-ethereum.svg" alt="icon-ethereum">
-        0.041 ETH
+        <span>0.041 ETH</span>
+      </div>
+      <div>
+        <img src="assets/images/icon-clock.svg" alt="icon-clock">
+        <span>3 days left</span>
+      </div>
     </div>
-    <div>
-      <img src="assets/images/icon-clock.svg" alt="icon-clock">
-      <span>3 days left</span>
-    </div>    
-    <div>
+
+    <div class="info">
       <img src="assets/images/image-avatar.png" alt="person-pic">
-      <span>Creation of</span> Jules Wyvern
+      Creation of <span>Jules Wyvern</span>
     </div>
   </section>
 
   <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.<br>
     Coded by <a href="https://github.com/gillaercio/nft-preview-card-component-main" target="_blank">Gildman Laécio</a>.
   </footer>
 </body>

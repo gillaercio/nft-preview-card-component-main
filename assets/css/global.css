@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+
+  --very-dark-blue-main-BG: hsl(217, 54%, 11%);
+  --very-dark-blue-card-BG: hsl(216, 50%, 16%);
+  --very-dark-blue-line: hsl(215, 32%, 27%);
+  --dark-blue-footer: hsl(228, 45%, 44%);
+  --white: hsl(0, 0%, 100%);
+
+  --outfit: "Outfit", serif;
+  --feature-text: 600 1.8em/150% var(--outfit);
+  --text: 400 1.5em/150% var(--outfit);
+  --small-text: 300 1.4em/150% var(--outfit);
+}
