@@ -6,6 +6,7 @@
 
 html {
   font-size: 62.5%;
+  color: var(--white);
 }
 
 :root {
@@ -20,6 +21,7 @@ html {
 
   --outfit: "Outfit", serif;
   --feature-text: 600 1.8em/150% var(--outfit);
+  --emphasis-text: 600 1.5em/150% var(--outfit);
   --text: 400 1.5em/150% var(--outfit);
   --small-text: 300 1.4em/150% var(--outfit);
 }
