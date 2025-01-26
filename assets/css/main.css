@@ -24,7 +24,7 @@ p {
 }
 
 .feature-img {
-  background-image: url(/assets/images/image-equilibrium.jpg);
+  background-image: url(assets/images/image-equilibrium.jpg);
   background-size: cover;
   width: 250px;
   height: 250px;
